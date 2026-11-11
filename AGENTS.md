@@ -1,0 +1,17 @@
+- Do not write any comments
+- Do not add any style/lint avoiders
+- Do not touch git without asking (even if approval is given previously)
+- Do not introduce unnecessary abstractions
+- Do not create helper functions for one-time operations unless they significantly improve readability
+- Do not add defensive checks for impossible states or conditions already guaranteed by the type system
+- Remove code made obsolete by your changes
+- Legacy code need not be supported
+- When formatting, do not revert changes. The program is always right or needs to be changed.
+- Do not ignore failures
+- Do not use 'any' types / implicit typing.
+- Keep changes relevant.
+- Unless asked, always build a MVP, do not go straight for "production-ready" code.
+- Pull real information from ref/
+- The boostrap is a luau -> zig transpiler.
+- Unless asked do not make new documentation files
+- If something is removed, do not add tests to verify
