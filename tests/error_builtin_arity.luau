@@ -1,0 +1,1 @@
+print(string.sub('x'))

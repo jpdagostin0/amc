@@ -1,0 +1,5 @@
+nil	compiler	nil	false
+true	true	true	true
+fallback	compiler	7	true
+true	false	false	false
+ready	0	nil	false	true
